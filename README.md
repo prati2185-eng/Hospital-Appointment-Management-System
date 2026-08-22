@@ -69,3 +69,18 @@ Doctors and administrators can also:
 - 🖥️ Manage the System through a Centralized Dashboard
 
 This enables **patients, doctors, and hospital staff** to manage appointments efficiently while reducing waiting time and manual work.
+
+----
+
+# ✨ Core Features
+# 🩺 Online Doctor Appointment Booking
+
+Allow patients to **search for doctors, check availability, select date and time slots, and book appointments online** through a simple and user-friendly interface.
+
+
+
+
+
+
+
+
