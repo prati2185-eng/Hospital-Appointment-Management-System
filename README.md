@@ -267,7 +267,7 @@ The Hospital Appointment Management System contributes to better healthcare mana
 
 ### 🏗️ Project Architecture
 
-```text
+```
                     Hospital Appointment Management System
                                       │
               ┌───────────────────────┼───────────────────────┐
@@ -289,48 +289,37 @@ The Hospital Appointment Management System contributes to better healthcare mana
                     ┌─────────────────┼─────────────────┐
                     ▼                 ▼                 ▼
                   Users            Doctors         Appointments
-
+---
 
 ---
 
 
 # 📂Project Structure
 
+---
 
-
-```text
+```
 Hospital-Appointment-Management-System
 │
 ├── assets/
-│
 ├── backend/
-│
 ├── database/
-│
 ├── docs/
-│
 ├── frontend/
 │   ├── static/
 │   │   ├── css/
 │   │   ├── js/
 │   │   └── images/
-│   │
 │   └── templates/
-│
 ├── report/
-│
 ├── screenshots/
-│
 ├── README.md
-│
 ├── requirements.txt
-│
 └── .gitignore
-```
 
 # 🚀Development Roadmap
 
-## Phase 1 — Planning & Design
+### Phase 1 — Planning & Design
 
 - 🔍 Identify the hospital appointment management problem
 - 📋 Analyze system requirements
@@ -341,7 +330,7 @@ Hospital-Appointment-Management-System
 
 ---
 
-## Phase 2 — Frontend Development
+### Phase 2 — Frontend Development
 
 - 💻 Develop the website interface
 - 🏠 Create the Home Page
@@ -365,7 +354,7 @@ Hospital-Appointment-Management-System
 
 ---
 
-## Phase 4 — Appointment System
+### Phase 4 — Appointment System
 
 - 🔍 Implement doctor search
 - 🕐 Add doctor availability
@@ -377,7 +366,7 @@ Hospital-Appointment-Management-System
 
 ---
 
-## Phase 5 — Testing & Deployment
+### Phase 5 — Testing & Deployment
 
 - 🧪 Test all major features
 - 🐛 Identify and fix bugs
@@ -418,7 +407,7 @@ Future versions of the Hospital Appointment Management System can include:
 
 # 👨‍💻 Developed By
 
-**Your Name**
+**Pratiksha Bhujbal**
 
 Computer Engineering Student
 
