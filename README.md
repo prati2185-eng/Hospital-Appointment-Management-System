@@ -265,143 +265,171 @@ The Hospital Appointment Management System contributes to better healthcare mana
 
 ---
 
-# 🏗️ Project Architecture
+### 🏗️ Project Architecture
 
 ```text
-Patient
-      │
-      ▼
-Register / Login
-      │
-      ▼
-Frontend (HTML + CSS + JavaScript)
-      │
-      ▼
-Backend (Python + Flask)
-      │
-      ▼
-Doctor Search & Availability
-      │
-      ▼
-Appointment Booking
-      │
-      ▼
-SQLite Database
-      │
-      ▼
-Appointment Management
+                    Hospital Appointment Management System
+                                      │
+              ┌───────────────────────┼───────────────────────┐
+              │                       │                       │
+              ▼                       ▼                       ▼
+           Patient                  Doctor                  Admin
+              │                       │                       │
+              ▼                       ▼                       ▼
+         Patient UI              Doctor UI               Admin UI
+              │                       │                       │
+              └───────────────────────┼───────────────────────┘
+                                      │
+                                      ▼
+                              Flask Backend
+                                      │
+                                      ▼
+                              SQLite Database
+                                      │
+                    ┌─────────────────┼─────────────────┐
+                    ▼                 ▼                 ▼
+                  Users            Doctors         Appointments
 
- • Patient Management
- • Doctor Management
- • Appointment Management
- • Doctor Availability
- • Appointment Status
-
-      │
-      ▼
-Doctor / Admin
-
-
------
-
-
-# 🚀 Development Roadmap
-
-## Phase 1
-
-- 🔍 Problem Identification
-- 📋 Requirement Analysis
-- 🏗️ System Design
-- 🎨 UI/UX Design
-- 🗄️ Database Planning
 
 ---
 
-## Phase 2
+# 📂Project Structure
 
-- 💻 Frontend Development
-- 🏠 Home Page
-- 🔐 Login & Registration
-- 👤 Patient Dashboard
-- 👨‍⚕️ Doctor Dashboard
-- 👨‍💼 Admin Dashboard
+
+
+```text
+Hospital-Appointment-Management-System
+│
+├── assets/
+│
+├── backend/
+│
+├── database/
+│
+├── docs/
+│
+├── frontend/
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   │
+│   └── templates/
+│
+├── report/
+│
+├── screenshots/
+│
+├── README.md
+│
+├── requirements.txt
+│
+└── .gitignore
+```
+
+# 🚀Development Roadmap
+
+## Phase 1 — Planning & Design
+
+- 🔍 Identify the hospital appointment management problem
+- 📋 Analyze system requirements
+- 👥 Identify patient, doctor, and admin requirements
+- 🏗️ Design the system workflow
+- 🎨 Create UI/UX designs
+- 🗄️ Design the database structure
 
 ---
 
-## Phase 3
+## Phase 2 — Frontend Development
 
-- 🐍 Flask Backend Development
-- 🗄️ SQLite Database Integration
-- 🔐 User Authentication
-- 👨‍⚕️ Doctor Management
-- 👤 Patient Management
-- 📅 Appointment Management
-
----
-
-## Phase 4
-
-- 🕐 Doctor Availability
-- 📅 Online Appointment Booking
-- 📊 Appointment Status Tracking
-- 📋 Appointment History
-- 📈 Admin Reports
+- 💻 Develop the website interface
+- 🏠 Create the Home Page
+- 🔐 Create Login and Registration Pages
+- 👤 Create Patient Dashboard
+- 👨‍⚕️ Create Doctor Dashboard
+- 👨‍💼 Create Admin Dashboard
+- 📱 Make the website responsive and user-friendly
 
 ---
 
-## Phase 5
+## Phase 3 — Backend & Database
 
-- 🧪 Testing
-- 🐛 Bug Fixing
-- ⚡ Performance Optimization
-- 📚 Documentation
-- 🌐 GitHub Portfolio
-- 🎤 Final Presentation
-- 🚀 Deployment
+- 🐍 Set up Python Flask backend
+- 🗄️ Integrate SQLite database
+- 🔐 Implement user authentication
+- 👤 Implement patient management
+- 👨‍⚕️ Implement doctor management
+- 📅 Implement appointment management
+- 🔄 Connect frontend with backend
+
+---
+
+## Phase 4 — Appointment System
+
+- 🔍 Implement doctor search
+- 🕐 Add doctor availability
+- 📅 Implement online appointment booking
+- 📊 Add appointment status tracking
+- 📋 Add appointment history
+- ❌ Add appointment cancellation
+- 📈 Add basic admin reports
+
+---
+
+## Phase 5 — Testing & Deployment
+
+- 🧪 Test all major features
+- 🐛 Identify and fix bugs
+- 🔒 Improve input validation and security
+- ⚡ Optimize website performance
+- 📚 Complete project documentation
+- 📸 Add project screenshots
+- 🌐 Upload the project to GitHub
+- 🎤 Prepare final presentation and demonstration
+- 🚀 Deploy the application
 
 ---
 
 # 🔮 Future Scope
 
-Future versions of the Hospital Appointment Management System will include:
+Future versions of the Hospital Appointment Management System can include:
 
-- 📱 Mobile Application
-- 🔔 Appointment Reminders
+- 📱 Dedicated Mobile Application
+- 🔔 Automatic Appointment Reminders
 - 📧 Email Notifications
 - 💬 SMS Notifications
-- 💳 Online Payment
-- ⭐ Doctor Ratings & Reviews
+- 💳 Online Payment Integration
+- ⭐ Doctor Ratings and Reviews
 - 📄 Digital Prescription Management
 - 🩺 Online Doctor Consultation
 - 📁 Medical Report Upload
-- 📊 Advanced Healthcare Analytics
+- 📊 Advanced Appointment Analytics
 - 🤖 AI-Based Doctor Recommendation
+- 🏥 Multi-Hospital Support
 
 ---
 
 # 🎯 Vision
 
-**To build a simple, accessible, and efficient digital healthcare appointment platform that reduces waiting time, simplifies appointment management, and improves coordination between patients, doctors, and hospitals.**
+**To build a simple, accessible, and efficient digital healthcare appointment platform that makes doctor appointment booking easier, reduces patient waiting time, minimizes manual work, and improves coordination between patients, doctors, and hospital administrators.**
 
 ---
 
 # 👨‍💻 Developed By
 
-**Pratiksha Bhujbal**
+**Your Name**
 
 Computer Engineering Student
 
 **Project:** Hospital Appointment Management System
 
-Passionate about Web Development, Healthcare Technology, and Building Technology for Real-World Problems.
+Passionate about **Web Development, Healthcare Technology, and Building Technology for Real-World Problems.**
 
 ---
 
 ## ⭐ Support the Project
 
-If you found this project interesting, please consider giving it a ⭐ on GitHub.
+If you find this project useful or interesting, please consider giving it a ⭐ on GitHub.
 
-**Let's build technology that makes healthcare appointment management easier and more efficient. 🏥**
-
-
+**Let's build technology that makes healthcare appointment management simple, accessible, and efficient. 🏥**
 
