@@ -73,7 +73,7 @@ This enables **patients, doctors, and hospital staff** to manage appointments ef
 ----
 
 # ✨ Core Features
-# 🩺 Online Doctor Appointment Booking
+### 🩺 Online Doctor Appointment Booking
 
 Allow patients to **search for doctors, check availability, select date and time slots, and book appointments online** through a simple and user-friendly interface.
 
